@@ -1,6 +1,10 @@
 <!ELEMENT HechosHistoricos (HechoHistorico+)>
         <!ELEMENT HechoHistorico (Fecha)>
         <!ELEMENT Epoca EMPTY>
+        <!ELEMENT PersonajeDestacado ANY>
+        <!ELEMENT Nombre (#PCDATA)>
+        <!ELEMENT FechaNacimiento (#PCDATA)>
+
         <!ELEMENT Fecha (Dia,Mes,Año)>
         <!ELEMENT Dia (#PCDATA)>
         <!ELEMENT Mes (#PCDATA)>
