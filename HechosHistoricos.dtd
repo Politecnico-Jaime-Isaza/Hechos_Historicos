@@ -6,7 +6,8 @@
         <!ELEMENT PersonajeDestacado ANY>
         <!ELEMENT Nombre (#PCDATA)>
         <!ELEMENT FechaNacimiento (#PCDATA)>
-        <!ELEMENT Fecha (Dia,Mes,Año)>
+        <!ELEMENT Fecha (#PCDATA | FormatoFecha)*>
+        <!ELEMENT FormatoFecha (Dia,Mes,Año)>
         <!ELEMENT Dia (#PCDATA)>
         <!ELEMENT Mes (#PCDATA)>
         <!ELEMENT Año (#PCDATA)>

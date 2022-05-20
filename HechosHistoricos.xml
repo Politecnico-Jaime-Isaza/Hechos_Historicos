@@ -5,9 +5,11 @@
 <HechosHistoricos>
     <HechoHistorico descripcion = "">
         <Fecha>
-            <Dia></Dia>
-            <Mes></Mes>
-            <Año></Año>
+            <FormatoFecha>
+                <Dia></Dia>
+                <Mes></Mes>
+                <Año></Año>
+            </FormatoFecha>
         </Fecha>
         <Epoca>
             <Epoca1></Epoca1>
