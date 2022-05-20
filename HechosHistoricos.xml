@@ -1,5 +1,14 @@
 <?xml version = "1.0" encoding = "UTF-8"?>
 
+<!DOCTYPE HechosHistoricos SYSTEM "HechosHistoricos.dtd">
+
 <HechosHistoricos>
+    <HechoHistorico descripcion = "">
+        <Fecha>
+            <Dia></Dia>
+            <Mes></Mes>
+            <Año></Año>
+        </Fecha>
+    </HechoHistorico>
 
 </HechosHistoricos>
