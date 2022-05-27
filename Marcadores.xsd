@@ -9,7 +9,31 @@
                             <xs:element name = "nombre" type = "xs:string"/>
                             <xs:element name = "descripcion" type = "xs:string"/>
                             <xs:element name = "url" type = "xs:string"/>
+                            <xs:element name = "año">
+                                <xs:simpleType>
+                                    <xs:restriction base = "xs:integer">
+                                        <xs:minInclusive value="2000"/>
+                                        <xs:maxExclusive value="2020"/>
+                                    </xs:restriction>
+                                </xs:simpleType>
+                            </xs:element>
+                            <xs:element name = "tipo_pagina" maxOccurs="unbounded" minOccurs="0">
+                                <xs:simpleType>
+                                    <xs:restriction base = "xs:string">
+                                        <xs:enumeration value = "educativa"/>
+                                        <xs:enumeration value = "deportiva"/>
+                                    </xs:restriction>
+                                </xs:simpleType>
+                            </xs:element>
+                            <xs:element name = "correo">
+                                <xs:simpleType>
+                                    <xs:restriction base = "xs:string">
+                                        <xs:pattern value="[a-z]"/>
+                                    </xs:restriction>
+                                </xs:simpleType>
+                            </xs:element>
                         </xs:sequence>
+                        <xs:attribute name = "ssl" type="xs:boolean" use = "required" fixed = "false"/>
                     </xs:complexType>
                 </xs:element>
             </xs:sequence>

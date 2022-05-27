@@ -1,19 +1,28 @@
 <?xml version = "1.0" encoding = "UTF-8"?>
 <marcadores xmlns:xsi = "http://www.w3.org/2001/XMLSchema-instance"
 xsi:noNamespaceSchemaLocation = "Marcadores.xsd">
-    <pagina>
+    <pagina ssl = "false">
         <nombre>Abrirllave</nombre>
         <descripcion>Tutoriales de informatica</descripcion>
         <url>http://www.abrirllave.com</url>
+        <año>2001</año>
+        <tipo_pagina>deportiva</tipo_pagina>
+        <correo>a</correo>
     </pagina>
-    <pagina>
+    <pagina ssl = "false">
         <nombre>Wikipedia</nombre>
         <descripcion>La enciclopedia libre</descripcion>
         <url>http://www.wikipedia.org</url>
+        <año>2017</año>
+        <tipo_pagina>educativa</tipo_pagina>
+        <correo>o</correo>
     </pagina>
-    <pagina>
+    <pagina ssl = "false">
         <nombre>W3C</nombre>
         <descripcion>World Wide Web Construction</descripcion>
         <url>http://www.w3.org</url>
+        <año>2019</año>
+        <tipo_pagina>deportiva</tipo_pagina>
+        <correo>c</correo>
     </pagina>
 </marcadores>
