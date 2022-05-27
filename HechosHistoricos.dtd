@@ -4,6 +4,10 @@
         <!ELEMENT Epoca1 (#PCDATA)>
         <!ELEMENT Epoca2 (#PCDATA)>
         <!ELEMENT PersonajeDestacado ANY>
+        <!ATTLIST PersonajeDestacado paisOrigen (FRANCIA | ESPAÑA | ALEMANIA | JAPON | EEUU) #REQUIRED>
+        <!ATTLIST PersonajeDestacado cedula ID #IMPLIED>
+        <!ATTLIST PersonajeDestacado cedulaHermano IDREF #IMPLIED>
+        <!ATTLIST PersonajeDestacado cedulaPRIMOS IDREFS #IMPLIED>
         <!ELEMENT Nombre (#PCDATA)>
         <!ELEMENT FechaNacimiento (#PCDATA)>
         <!ELEMENT Fecha (#PCDATA | FormatoFecha)*>
@@ -13,4 +17,5 @@
         <!ELEMENT Año (#PCDATA)>
         <!ATTLIST HechoHistorico descripcion CDATA #IMPLIED>
         <!ATTLIST HechoHistorico autor CDATA #FIXED 'Camilo'>
-        <!ATTLIST HechosHistoricos version CDATA #FIXED "1.1">
+        <!ATTLIST HechosHistoricos version CDATA #FIXED "1.1"
+                                    clave NMTOKEN #IMPLIED>

@@ -2,20 +2,21 @@
 
 <!DOCTYPE HechosHistoricos SYSTEM "HechosHistoricos.dtd">
 
-<HechosHistoricos version = '1.1'>
-    <HechoHistorico descripcion = "" autor = 'Camilo'>
+<HechosHistoricos version = '1.1' clave = "any7:5478">
+    <HechoHistorico descripcion = "Comienzo del año 2001" autor = 'Camilo'>
         <Fecha>
             <FormatoFecha>
-                <Dia></Dia>
-                <Mes></Mes>
-                <Año></Año>
+                <Dia>01</Dia>
+                <Mes>01</Mes>
+                <Año>2001</Año>
             </FormatoFecha>
         </Fecha>
         <Epoca>
             <Epoca1></Epoca1>
         </Epoca>
-            <PersonajeDestacado>
-                Test persona <Nombre></Nombre> y fecha de nacimiento <FechaNacimiento></FechaNacimiento>
+            <PersonajeDestacado paisOrigen="JAPON" cedulaPRIMOS="cedula11" >
+            </PersonajeDestacado>
+            <PersonajeDestacado paisOrigen="ALEMANIA" cedula = "cedula11" cedulaHermano="cedula11" >
             </PersonajeDestacado>
     </HechoHistorico>
 
