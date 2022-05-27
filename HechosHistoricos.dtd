@@ -11,4 +11,6 @@
         <!ELEMENT Dia (#PCDATA)>
         <!ELEMENT Mes (#PCDATA)>
         <!ELEMENT Año (#PCDATA)>
-        <!ATTLIST HechoHistorico descripcion CDATA #REQUIRED>
+        <!ATTLIST HechoHistorico descripcion CDATA #IMPLIED>
+        <!ATTLIST HechoHistorico autor CDATA #FIXED 'Camilo'>
+        <!ATTLIST HechosHistoricos version CDATA #FIXED "1.1">

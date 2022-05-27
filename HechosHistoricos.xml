@@ -2,8 +2,8 @@
 
 <!DOCTYPE HechosHistoricos SYSTEM "HechosHistoricos.dtd">
 
-<HechosHistoricos>
-    <HechoHistorico descripcion = "">
+<HechosHistoricos version = '1.1'>
+    <HechoHistorico descripcion = "" autor = 'Camilo'>
         <Fecha>
             <FormatoFecha>
                 <Dia></Dia>
